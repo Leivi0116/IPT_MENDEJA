@@ -1,0 +1,42 @@
+@import url(./style.css);
+
+@keyframes cbackground {
+    from{
+        background-position-x: -100%;
+    }to{
+        background-position-x: 0%;
+    }
+}
+
+@keyframes slideup {
+    from{
+        transform: translateY(100%);
+    }to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slidedown {
+    from{
+        transform: translateY(-100%);
+    }to{
+        transform: translateY(0%);
+    }
+}
+@keyframes slideleft {
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes right-in{
+    0%{
+        opacity: 1;
+        transform: scale(0);
+    }100%{
+        transform: scale(100%);
+
+    }
+}
